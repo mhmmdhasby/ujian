@@ -10,7 +10,7 @@ select,
 button {
   width: 100%;
   padding: 8px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   border: 1px solid #bbb;
   border-radius: 5px;
   box-sizing: border-box;
@@ -58,7 +58,7 @@ button {
 }
 .sidebar {
   background: #B9D013;
-  padding: 15px;
+  padding: 30px;
   flex-shrink: 0;
   /* biar tidak mengecil*/
 }
@@ -75,12 +75,12 @@ button {
             width: 200px;
             display: flex;
             flex-direction: column;
-            gap: 5px;
+            gap: 6px;
             color: white;
             text-decoration:none;
-            min-height: 50px;
+            min-height: 1%;
             font-size: 30px;
-            
+        
            
         }
   textarea{
