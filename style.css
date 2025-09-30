@@ -86,3 +86,16 @@ button {
   textarea{
     width: 100%;
   }
+  @media screen and (max-width: 480px) {
+  
+  .container {
+    flex-direction: column;
+    /*sidebar jadi pindah ke atas*/
+  }
+  
+  .sidebar ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+}
