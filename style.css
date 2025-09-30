@@ -1,0 +1,88 @@
+
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background: #5969FE;
+  color: whitesmoke;
+  font-size: 16px;
+  border: none;
+  margin-bottom: 100px;
+  
+}
+    
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: yellowgreen;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 30px;
+}
+.footer{
+  background: yellowgreen;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  /*mengisi ruang antara header dan footer*/
+  min-height: 0;
+  /* biar terisi natural*/
+  
+}
+.sidebar {
+  background: #B9D013;
+  padding: 15px;
+  flex-shrink: 0;
+  /* biar tidak mengecil*/
+}
+.content {
+  flex: 1;
+  /*untuk mengisi sisa ruang*/
+  background: lightyellow;
+  padding: 20px;
+  border-left: 2px solid grey;
+  overflow-y: auto;
+  
+}
+.sidebar ,a{
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            color: white;
+            text-decoration:none;
+            min-height: 50px;
+            font-size: 30px;
+            
+           
+        }
+  textarea{
+    width: 100%;
+  }
